@@ -1,0 +1,22 @@
+{
+	"__comment": "This is a 1999Lounge TCP server configuration JSON File",
+	"socket": {
+		"host": "192.168.136.60",
+		"port": 7301,
+		"sElevatorRequestSignal": [0,7,0,0,0,6,0,3,0,0,0,1],
+		"sDoorRequestSignal": [0,7,0,0,0,6,0,3,0,0,0,2],
+		"frontLight": {
+			"length": 13,
+			"status": 0
+		},
+		"backLight":{
+			"length": 11,
+			"status": 0
+		},
+		"requestInterval": 1000
+	},
+	"server": {
+		"port": 8124,
+		"max_connection": 2
+	}
+}
